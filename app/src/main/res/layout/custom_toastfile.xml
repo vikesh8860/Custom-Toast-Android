@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative__layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:id="@+id/logo"
+        android:src="@drawable/google" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="20dp"
+        android:text="Image and Text in custom toast"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
+
+</RelativeLayout>
